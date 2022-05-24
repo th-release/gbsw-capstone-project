@@ -234,3 +234,20 @@ th {
   justify-content: center;
   align-items: center;
 }
+
+.footer {
+  position: fixed;
+  width: 100%;
+  opacity: 1;
+  color: rgba(255,255,255);
+  background-color: rgba(75,85,99);
+  bottom: 0%;
+  padding: 1rem;
+}
+
+.Credits {
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  color: inherit;
+  text-decoration: inherit;
+}
