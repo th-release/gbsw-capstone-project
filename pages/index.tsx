@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from '../components/head'
 import Load from '../components/load'
-import fetcher from '../utils/fetcher'
+import fetcher from "../utils/fetcher";
 import useSWR from 'swr'
 
 const Index: NextPage = () => {

@@ -13,4 +13,3 @@ create table panel
   constraint panel_redirect_uindex
     unique (redirect)
 );
-
