@@ -5,7 +5,7 @@ import fetcher from "../utils/fetcher";
 import useSWR from 'swr'
 
 const Index: NextPage = () => {
-  const { data, error } = useSWR('/api/get?type=panel', fetcher)
+  const { data, error } = useSWR('/api/get?type=Quastions', fetcher)
   
   if (error) {
     return <>

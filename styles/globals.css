@@ -251,3 +251,16 @@ th {
   color: inherit;
   text-decoration: inherit;
 }
+
+.Home_Container {
+  padding: 0 2rem;
+}
+
+.Home_Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  flex: 1 1;
+  flex-direction: column;
+}
