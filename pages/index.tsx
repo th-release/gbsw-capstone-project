@@ -6,7 +6,7 @@ import useSWR from 'swr'
 
 const Index: NextPage = () => {
   const { data, error } = useSWR('/api/get?type=panel', fetcher)
-  
+
   if (error) {
     return <>
       <Head title='GBSW | 캡스톤' />
@@ -42,7 +42,7 @@ const Index: NextPage = () => {
         </div>
         <div style={{ marginBottom: '60px'}}></div>
         <div className="footer">
-          © {new Date().getFullYear()}. GBSWHS. 
+          © {new Date().getFullYear()}. GBSWHS.
           <span><a href="https://github.com/gbswhs" target="blank" className="Credits">GITHUB</a></span>
         </div>
       </div>
