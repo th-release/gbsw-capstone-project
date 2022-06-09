@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import Head from '../components/head'
 import Link from 'next/link'
-import classnames from 'classnames'
+import classnames from "classnames";
 
 import Account from '../styles/Account.module.css'
 import React, { useState } from 'react'
