@@ -4,7 +4,7 @@ import Load from '../components/load'
 import fetcher from "../utils/fetcher";
 import useSWR from 'swr'
 
-const Index: NextPage = () => {
+const Arduino: NextPage = () => {
   const { data, error } = useSWR('/api/get?type=panel', fetcher)
 
   if (error) {
@@ -58,4 +58,4 @@ const Index: NextPage = () => {
 
 }
 
-export default Index
+export default Arduino

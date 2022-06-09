@@ -12,7 +12,7 @@ export default function login() {
 	const [values, setValues] = useState({ id: '', password: '', error_Message: '' })
   async function handleSubmit(e: any) {
 		e.preventDefault()
-		const res = await fetch('/api/Account/login', {
+		const res = await fetch('/active?type=login', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'

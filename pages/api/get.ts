@@ -32,7 +32,7 @@ const get = async (req: NextApiRequest, res: NextApiResponse) => {
       })
     }
   } catch(e: any) {
-    return res.status(e.statusCode).send({
+    return res.status(200).send({
       statusCode: e.statusCode,
       message: e.message
     })
