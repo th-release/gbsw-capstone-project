@@ -268,7 +268,7 @@ th {
 }
 
 .loginContainer {
-  border-radius: 20px;
+  border-radius: 4px;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
@@ -278,7 +278,6 @@ th {
 }
 
 .loginTitle {
-  font-family: 'Gugi', cursive;
   margin-top: 10vh;
   textAlign: center;
   line-height: 1.15;
@@ -291,7 +290,7 @@ th {
   padding: 0 16px;
   height: 50px;
   width: 350px;
-  border-radius: 10px;
+  border-radius: 4px;
   font-size: 17px;
 }
 
@@ -300,11 +299,10 @@ th {
 }
 
 .loginBtn {
-  font-family: 'Gugi', cursive;
   margin-left: auto;
   margin-right: auto;
   font-size: 1rem;
-  border-radius: 20px;
+  border-radius: 4px;
   width: 100px;
   height: 50px;
   background-color: #0070f3;

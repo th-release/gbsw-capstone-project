@@ -3,9 +3,9 @@ import knex from 'knex'
 const db = knex({
   client: 'mysql',
   connection: {
-    host: 'localhost',
+    host: 'terminal.kro.kr',
     user: 'cth',
-    password: '',
+    password: 'xogur38997',
     database: 'gbsw_capstone',
   }
 })
