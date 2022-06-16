@@ -4,8 +4,8 @@ const db = knex({
   client: 'mysql',
   connection: {
     host: 'terminal.kro.kr',
-    user: 'cth',
-    password: 'xogur38997',
+    user: '',
+    password: '',
     database: 'gbsw_capstone',
   }
 })
